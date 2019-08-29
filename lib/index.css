@@ -1,0 +1,23 @@
+body{
+  background-color: #CAEBF2;
+  font-weight: 600;
+}
+.card{
+  color: white;
+  background-color: #214fa0;
+}
+
+#flash-alert{
+  width: 100%
+}
+
+#food-button{
+  width: 100%;
+}
+
+#meal-food-frame{
+  width: 100%;
+}
+.update-input{
+  width: 100%
+}
