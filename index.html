@@ -8,30 +8,37 @@
 </head>
 <body>
 <div class="container" id="page-container">
+  <h1>Quantified Self</h1>
   <div class="row" id="alert-row"></div>
   <br>
   <div class="row">
-    <div class="col">
+    <div class="col" id="meal-col">
       <h1 id="meal-heading">Meals</h1>
       <div class="row" id="meal-frame">
       </div>
+      <br>
       <div class="row">
         <div id="meal-food-frame"></div>
       </div>
     </div>
     <div class="col">
+      <h1 id="food-heading">Foods</h1>
+      <br>
       <button id="food-button" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#food-frame">Show All Foods</button>
       <div id="food-frame"></div>
       <br>
-      <article id="food-create-form" class="form">
-        <label for="name">
-          <input id="food-name-input" type="text" placeholder="Name of Food" aria-required="true">
-        </label>
-        <label for="calories">
-          <input id="food-calories-input" type="number" placeholder="Number of Calories" aria-required="true">
-        </label>
-          <button id="create-food-button">Create Food</button>
-      </article>
+      <div class="card">
+        <h4 class="card-title">Add a Food</h4>
+        <article id="food-create-form" class="form">
+          <label for="name">
+            <input id="food-name-input" type="text" placeholder="Name of Food" aria-required="true">
+          </label>
+          <label for="calories">
+            <input id="food-calories-input" type="number" placeholder="Number of Calories" aria-required="true">
+          </label>
+            <button id="create-food-button">Create Food</button>
+        </article>
+      </div>
     </div>
   </div>
 </div>

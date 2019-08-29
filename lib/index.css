@@ -1,7 +1,12 @@
 #flash-alert{
   width: 100%
 }
+
 #food-button{
+  width: 100%;
+}
+
+#meal-food-frame{
   width: 100%;
 }
 .update-input{
